@@ -88,7 +88,6 @@ button:focus-visible {
 }
 
 .about-image {
-  margin-top: -18%;
   width: 30%; 
   height: 65%;
   border-radius: 50%; 
@@ -132,6 +131,17 @@ button:focus-visible {
   .home-container {
     flex-direction: column; 
   }
+  .project-container{
+    flex-direction: column; /* Stack circles in a column */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .Bigcircle {
+    width: 150px; /* Adjust size for smaller screens */
+    height: 150px; /* Adjust size for smaller screens */
+    font-size: 0.9rem;
+    margin: 10px 0; /* Adjust font size */
+  }
   .content {
     max-width: 100%; 
     padding: 0 20px; 
@@ -157,9 +167,18 @@ button:focus-visible {
   .home-container {
     flex-direction: column; 
   }
+  .Bigcircle {
+    width: 100px; /* Adjust size for smallest screens */
+    height: 100px; /* Adjust size for smallest screens */
+    font-size: 0.8rem; /* Adjust font size */
+  }
   .content {
     max-width: 100%; 
     padding: 0 20px; 
+  }
+  .project-container {
+    flex-direction: column; 
+    align-items: center; 
   }
 }
 
@@ -246,4 +265,48 @@ button:focus-visible {
 .logo p{
   padding-top: 2px;
   padding-left: 5px;
+}
+
+
+.Bigcircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px; 
+  height: 400px; 
+  background-color: #1f253d;
+  border-radius: 50%;
+  margin: 10px; 
+  text-align: center;
+  line-height: 1.5; 
+  color: #fff; 
+  text-decoration: none; 
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  font-size: 30px;
+}
+
+
+.project-container {
+  margin-top: 8%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.Bigcircle:hover {
+  background-color: #2980b9; 
+}
+
+.Bigcircle p {
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
+  color: #ccc; 
 }
