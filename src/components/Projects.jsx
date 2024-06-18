@@ -14,15 +14,15 @@ const Projects = () => {
                 <p>Web Service for Connecting Clients with Local Service Providers</p>
                 </div>
                 </a>
-                <a href="" className="Bigcircle">
+                <a href="https://github.com/derwonderwoman/MordecaiHatesHaman" className="Bigcircle">
                 <div>
                 MordecaiHatesHamam
                 <p>A Telegram bot dedicated to finding and combating antisemitic comments on YouTube.</p>
                 </div>
                 </a>
-                <a href="" className="Bigcircle">
+                <a href="https://github.com/derwonderwoman/budgetmanager" className="Bigcircle">
                 <div>
-                MoneyManager
+                BudgetManager
                 <p>An intuitive web service designed to track and manage expenses efficiently</p>
                 </div>
                 </a>
