@@ -10,7 +10,7 @@ const Footer = () => {
           <div><img className='inner-img' width="30" height="30" src='../../public/linkedin (2).svg'/></div> 
           <p>LinkedIn</p></a>
           <a className='logo' href="https://github.com/derwonderwoman" target="_blank" rel="GitHub">
-            <div><img className='inner-img' width="30" height="30" src='../../public/github.svg'/></div> 
+            <div><img className='inner-img' width="30" height="30" src='../../public/github.png'/></div> 
             <p>GitHub</p></a>
       </footer>
         </>
