@@ -17,11 +17,6 @@ const NavBar = () => {
             </Link>
         </div>
         <div>
-            <Link to="/cv">
-                <button>My Resume</button>
-            </Link>
-        </div>
-        <div>
             <Link to="/projects">
                 <button>My Projects</button>
             </Link>

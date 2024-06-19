@@ -1,0 +1,29 @@
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Gap between items */
+  }
+  
+  .skill-item {
+    text-align: center;
+  }
+  
+  .skill-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .skill-item p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+
+  .icon {
+    height: 100px;
+    width: 100px;
+  }
+
+  i{
+    font-size: 30px;
+  }

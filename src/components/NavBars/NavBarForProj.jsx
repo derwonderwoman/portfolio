@@ -17,11 +17,6 @@ const NavBarForProj = () => {
             </Link>
         </div>
         <div>
-            <Link to="/cv">
-                <button>My Resume</button>
-            </Link>
-        </div>
-        <div>
             <Link to="/contacts">
                 <button>Contact me</button>
             </Link>
