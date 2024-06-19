@@ -1,6 +1,7 @@
+
 .skills-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax(235px, 1fr)); 
     gap: 20px; 
   }
   
@@ -20,10 +21,113 @@
   }
 
   .icon {
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
   }
 
   i{
     font-size: 30px;
   }
+
+  .SkillTitle{
+    width: 100%;
+    background-color: #1f253d;
+    justify-content: space-between;
+    color: #ffffff;
+    font-weight: bold;
+    height: 70px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.about-image {
+    width: 10%; 
+    border-radius: 50%; 
+    object-fit: cover; 
+  }
+
+  .about-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+    padding: 20px;
+    text-indent: 30px;
+  }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .improvedContent {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .SkillTitle {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 6 equal columns */
+    gap: 20px; /* Gap between columns */
+  }
+
+  .about-container .fact {
+    font-size: 20px;
+    padding: 10px;
+    background-color: #1f253d;
+    border: 1px solid #ddd;
+    border-radius: 10%; 
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .about-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+    }
+  }
+
+  .downloadCVAbout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px; 
+    height: 120px; 
+    background-color: #1f253d;
+    border-radius: 30%;
+    margin: 10px; 
+    line-height: 1.5; 
+    color: #fff; 
+    text-decoration: none; 
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-size: 15px;
+  }
+
+
+  .centered-button {
+    margin-top: -5%;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+  }
+
+  .downloadCVAbout:hover {
+    background-color: #2980b9; 
+  }
+  
+  
+  
