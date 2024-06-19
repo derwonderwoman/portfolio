@@ -15,14 +15,14 @@ const AboutMe = () => {
         </div>
         <h1 className='SkillTitle'>Small Facts About Me</h1>
         <div className="about-container">
-          <div className="fact">I moved to Israel five years ago from Russia. </div>
-          <div className="fact">Fluent in Russian, English, Hebrew; basic French skills</div>
-          <div className="fact">I was honored to contribute my project to the Adir Antisemitic initiative</div>
+          <div className="fact">I moved to Israel five years ago from Russia with my husband and son. </div>
+          <div className="fact">I have a passion for languages. Fluent in Russian, English, Hebrew; basic French.</div>
+          <div className="fact">I was honored to contribute my project to the Adir Antisemitic initiative.</div>
           <div className="fact">Leadership role in winning a <strong>Hackathon</strong> with innovative projects.</div>
           <div className="fact">Prior experience in organizational roles at international firms.</div>
           <div className="fact">Achieved success at TLV Coding Bootcamp in web development.</div>
         </div>
-        <h1 className='SkillTitle'>Skills.</h1>
+        <h1 className='SkillTitle'>Skills</h1>
         <div className="skills-container">
             <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" />
             <img className='icon' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg" />

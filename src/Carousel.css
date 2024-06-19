@@ -76,29 +76,23 @@
   }
   
   .SkillTitle {
+    padding-top: 1%;
     font-size: 2rem;
     margin-bottom: 20px;
   }
   
   .about-container {
     display: grid;
-    grid-template-columns: repeat(6, 1fr); /* 6 equal columns */
-    gap: 20px; /* Gap between columns */
+    grid-template-columns: repeat(6, 1fr); 
+    gap: 20px; 
   }
 
   .about-container .fact {
     font-size: 20px;
-    padding: 10px;
     background-color: #1f253d;
     border: 1px solid #ddd;
     border-radius: 10%; 
     text-align: center;
-  }
-  
-  @media (max-width: 768px) {
-    .about-container {
-      grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
-    }
   }
 
   .downloadCVAbout{
@@ -115,19 +109,29 @@
     text-decoration: none; 
     font-weight: bold;
     transition: background-color 0.3s ease;
-    font-size: 15px;
+    font-size: 20px;
   }
 
 
   .centered-button {
     margin-top: -5%;
     display: flex;
-    justify-content: center; /* Center horizontally */
+    justify-content: center; 
   }
 
   .downloadCVAbout:hover {
     background-color: #2980b9; 
   }
   
-  
+  @media screen and (max-width: 768px) {
+    .about-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 480px) { 
+    .about-container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+  }
   

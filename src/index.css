@@ -23,7 +23,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Links */
 a {
   font-weight: 500;
   color: var(--primary-color);
@@ -34,7 +33,6 @@ a:hover {
   color: var(--primary-color-hover);
 }
 
-/* Body */
 body {
   line-height: 1.5;
   font-weight: 400;
@@ -58,7 +56,6 @@ h1 {
 
 .home-container {
   margin-top: 5%;
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,7 +65,7 @@ h1 {
 
 .profile-image {
   width: 30%; 
-  height: 65%;
+  height: auto;
   border-radius: 50%; 
   object-fit: cover; 
 }
@@ -93,65 +90,6 @@ h1 {
 .content p {
   font-size: 1.2rem;
   line-height: 1.5; 
-}
-
-@media (max-width: 768px) {
-  .profile-image {
-    width: 150px; 
-    height: 150px; 
-  }
-  .home-container {
-    flex-direction: column; 
-  }
-  .project-container{
-    flex-direction: column; /* Stack circles in a column */
-    align-items: center; /* Center items horizontally */
-  }
-
-  .Bigcircle {
-    width: 150px;
-    height: 150px;
-    font-size: 0.9rem;
-    margin: 10px 0; 
-  }
-  .content {
-    max-width: 100%; 
-    padding: 0 20px; 
-  }
-  .footer{
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 480px) {
-  .profile-image {
-    width: 100px; 
-    height: 100px;  
-  }
-  .pair{
-    flex-direction: column;
-  }
-
-  .footer{
-    flex-direction: column;
-  }
-
-  .home-container {
-    flex-direction: column; 
-  }
-  .Bigcircle {
-    width: 100px; /* Adjust size for smallest screens */
-    height: 100px; /* Adjust size for smallest screens */
-    font-size: 0.8rem; /* Adjust font size */
-  }
-  .content {
-    max-width: 100%; 
-    padding: 0 20px; 
-  }
-  .project-container {
-    flex-direction: column; 
-    align-items: center; 
-  }
 }
 
 .footer {
@@ -308,4 +246,73 @@ h1 {
 .improvedContent {
   margin-top: 3%;
   max-width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .profile-image {
+    width: 25%; 
+  }
+
+  .content {
+    max-width: 60%; 
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .profile-image {
+    width: 150px; 
+    height: 150px; 
+  }
+  .home-container {
+    flex-direction: column; 
+  }
+  .project-container{
+    flex-direction: column;
+    align-items: center; 
+  }
+
+  .Bigcircle {
+    width: 150px;
+    height: 150px;
+    font-size: 0.9rem;
+    margin: 10px 0; 
+  }
+  .content {
+    max-width: 100%; 
+    padding: 0 20px; 
+  }
+  .footer{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .profile-image {
+    width: 100px; 
+    height: 100px;  
+  }
+  .pair{
+    flex-direction: column;
+  }
+
+  .footer{
+    flex-direction: column;
+  }
+
+  .home-container {
+    flex-direction: column; 
+  }
+  .Bigcircle {
+    width: 100px; 
+    height: 100px; 
+    font-size: 0.8rem; 
+  }
+  .content {
+    max-width: 100%; 
+    padding: 0 20px; 
+  }
+  .project-container {
+    flex-direction: column; 
+    align-items: center; 
+  }
 }
